@@ -9,7 +9,7 @@ app.get('/', function(request, response) {
 })
 
 app.post('/callback/1', function(request, response) {
-  response.send('Hello World!')
+  response.send('VMPI Ping Success from Heroku!')
 })
 
 
